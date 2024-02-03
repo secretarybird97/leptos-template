@@ -25,7 +25,7 @@ pub fn Navbar() -> impl IntoView {
                 </div>
                 <div class="flex-1">
                     // text
-                    <a class="btn btn-ghost text-xl">"Visual Start"</a>
+                    <a class="btn btn-ghost text-xl">"Welcome to Leptos"</a>
                 </div>
                 <div class="flex-none">
                     <button class="btn btn-square btn-ghost">

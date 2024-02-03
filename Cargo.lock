@@ -945,6 +945,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "leptos-template"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "console_error_panic_hook",
+ "http 1.0.0",
+ "leptos",
+ "leptos_axum",
+ "leptos_meta",
+ "leptos_router",
+ "thiserror",
+ "tokio",
+ "tower",
+ "tower-http",
+ "tracing",
+ "wasm-bindgen",
+]
+
+[[package]]
 name = "leptos_axum"
 version = "0.6.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2188,25 +2207,6 @@ name = "version_check"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
-
-[[package]]
-name = "visual-start"
-version = "0.1.0"
-dependencies = [
- "axum",
- "console_error_panic_hook",
- "http 1.0.0",
- "leptos",
- "leptos_axum",
- "leptos_meta",
- "leptos_router",
- "thiserror",
- "tokio",
- "tower",
- "tower-http",
- "tracing",
- "wasm-bindgen",
-]
 
 [[package]]
 name = "walkdir"
